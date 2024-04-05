@@ -1,0 +1,59 @@
+@import "../../theme.scss";
+
+.gridrooms__container {
+  margin-top: 70px;
+//   margin-bottom: 70px;
+  .gridrooms__container__text {
+    h1 {
+      color: $white-color;
+      font-size: 40px;
+    }
+    h3 {
+      color: $white-color;
+      font-size: 20px;
+    }
+    p {
+      color: $white-color;
+      font-size: 16px;
+    }
+  }
+}
+
+.gridrooms__container__card {
+  background-image: url("https://via.placeholder.com/600x850");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+  margin-bottom: 40px;
+  border: none;
+  .ant-card-head{
+    border: none;
+  }
+  .room__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px !important;
+    background: rgb(0 0 0 / 20%);
+    color: $white-color;
+    padding: 2px;
+    font-size: 14px;
+  }
+  .gridrooms__container__card__footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+    color: $white-color;
+    h2{
+        margin: 0px;
+    }
+    p{
+        margin: 0px;
+        font-size: 16px;
+        width: 100%;
+    }
+    // hacerlo al final
+  }
+}

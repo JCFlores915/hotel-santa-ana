@@ -1,0 +1,49 @@
+@import '../../theme.scss';
+
+.history__container{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    .history__container__text{
+        h1{
+            color: $white-color;
+            font-size: 40px;
+        }
+        h3{
+            color: $white-color;
+            font-size: 20px;
+        }
+        p{
+            color: $white-color;
+            font-size: 16px;
+        }
+    }
+    .history__container__card{
+        margin-bottom: 40px;
+
+        .history__container__card__img{
+            background-image: url('https://via.placeholder.com/600x850');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 550px;
+            width: 100%;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            text-align: center  ;
+            img{
+                border: 1px solid $line-color;
+            }
+            h3 {
+                color: $white-color;
+                font-size: 20px;
+                margin-top: 90px;
+            }
+            p{
+                color: $white-color;
+                font-size: 16px;
+                margin-top: 50px;
+            }
+        }
+    }
+}

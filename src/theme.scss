@@ -1,0 +1,61 @@
+// Colors for the theme of the application
+.classBody {
+  background-color: #201f22;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+// Primary color for the application
+$primary-color: #1890ff;
+$link-color: #1890ff;
+$success-color: #52c41a;
+$warning-color: #faad14;
+$error-color: #f5222d;
+$white-color: #fff;
+// Base background color for the application
+$body-background: #201f22;
+
+// Base text color for the application
+$text-color-primary: #ccb28d;
+
+// Base line color for the application
+$line-color: #313131;
+
+// change the color of the selected
+.ant-menu-item-selected{
+    background-color: #201f22 !important;
+    color: $text-color-primary !important;
+}
+// MOBILE RESPONSIVE CONTAINER WIDTH
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 576px;
+  }
+}
+

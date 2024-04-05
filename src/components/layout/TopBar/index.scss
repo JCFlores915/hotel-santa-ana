@@ -1,0 +1,39 @@
+@import "../../../theme.scss";
+
+.topbar {
+  border-bottom: 1px solid $line-color;
+  position: relative;
+  width: 100%;
+  padding: 2px 0;
+  font-size: 11px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  z-index: 1030;
+  color: $text-color-primary;
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .inner__msg__contact {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 0;
+        margin: 0;
+      li{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+
+        a{
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 21px;
+            padding: 2px 5px;
+        }
+      }
+    }
+  }
+}
