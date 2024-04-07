@@ -4,7 +4,7 @@ const GridRooms = () => {
     return (
         <div className='container'>
             <Row gutter={16} className='gridrooms__container'>
-                <Col xs={24} sm={24} md={12} lg={12} xl={12} className='gridrooms__container__text'>
+                <Col xs={24} sm={24} md={24} lg={24} xl={24} className='gridrooms__container__text'>
                     <h1>Our Best Rooms</h1>
                     <h3>Our best rooms available for your vacation.</h3>
                 </Col>

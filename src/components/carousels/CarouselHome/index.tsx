@@ -1,4 +1,4 @@
-import { Carousel, Row, Col, Space, Button } from 'antd';
+import { Carousel, Row, Space, Button } from 'antd';
 import { StarOutlined } from '@ant-design/icons';
 import './index.scss'
 import CardEmail from '../../shared/CardEmail';
