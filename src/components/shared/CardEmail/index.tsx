@@ -1,5 +1,5 @@
 
-import { Card, Input, Form, DatePicker, Button, Layout, Row, Col } from 'antd';
+import { Card, Input, Form, DatePicker, Button, Row, Col } from 'antd';
 const CardEmail = () => {
     const [form] = Form.useForm();
     const { RangePicker } = DatePicker;
